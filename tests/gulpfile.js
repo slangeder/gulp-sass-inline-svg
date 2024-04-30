@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 var svgmin = require('gulp-svgmin');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('node-sass'));
 var inlinesvg = require('../index.js');
 
 gulp.task('icons', function(){
