@@ -3,7 +3,7 @@
     "name": "David Mosemann"
   },
   "dependencies": {
-    "cheerio": "^1.0.0",
+    "cheerio": "^0.22.0",
     "signale": "^1.4.0",
     "through2": "^0.6.3"
   },
